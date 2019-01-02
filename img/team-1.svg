@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>team-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.6%" y="-0.7%" width="101.2%" height="101.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="getTalent---Virtual-Teambuilding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-Freelancer-Work-Order-Detail-Accepted-W.O.-v1.6" transform="translate(-414.000000, -180.000000)">
+            <g id="W/Os" filter="url(#filter-1)" transform="translate(390.000000, 168.000000)">
+                <g id="Project-1">
+                    <g id="Project-Titlebar">
+                        <rect id="Project-Title-Bar" fill="#E6E6E6" x="0" y="0" width="1140" height="64"></rect>
+                        <g id="Icon" opacity="0.9" transform="translate(32.000000, 16.000000)">
+                            <rect id="Rectangle-2" x="0" y="0" width="32" height="32"></rect>
+                            <g id="multiple-11" transform="translate(5.000000, 5.000000)" stroke="#212529" stroke-linecap="square" stroke-width="2">
+                                <path d="M3,6 C1.895,6 1,5.105 1,4 C1,2.895 1.895,2 3,2 C4.105,2 5,2.895 5,4 C5,5.105 4.105,6 3,6 Z" id="Shape"></path>
+                                <path d="M5,20 L2,20 L2,16 L0,16 L0,11 C0,9.895 0.895,9 2,9 L3,9" id="Shape"></path>
+                                <path d="M19,6 C20.105,6 21,5.105 21,4 C21,2.895 20.105,2 19,2 C17.895,2 17,2.895 17,4 C17,5.105 17.895,6 19,6 Z" id="Shape"></path>
+                                <path d="M17,20 L20,20 L20,16 L22,16 L22,11 C22,9.895 21.105,9 20,9 L19,9" id="Shape"></path>
+                                <path d="M11,6 C9.343,6 8,4.657 8,3 C8,1.343 9.343,0 11,0 C12.657,0 14,1.343 14,3 C14,4.657 12.657,6 11,6 Z" id="Shape"></path>
+                                <path d="M14,22 L8,22 L8,16 L6,16 L6,11 C6,9.895 6.895,9 8,9 L14,9 C15.105,9 16,9.895 16,11 L16,16 L14,16 L14,22 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

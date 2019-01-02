@@ -1,0 +1,1268 @@
+body
+
+{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+a {
+	color: #212529;
+	transition: 0.3s;
+}
+
+/***
+* Short-cut CSS
+***/
+
+h3 {
+  font-size: 24px;
+  color: #212529;
+}
+
+
+
+h4 {
+	font-size: 16px;
+	color: #212529;
+}
+
+h4.subcontract-id {
+	opacity: 0.54;
+	text-transform: uppercase;
+	
+}
+
+h3.subcontract-freelancer {
+	font-weight: 300;
+	letter-spacing: -0.51px;
+	text-transform: uppercase;
+  position: relative;
+  top: -8px;
+}
+
+h4.title-subcontracts {
+	opacity: 0.9;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+
+li h4.wo-no-2452536,li h4.subcontract-No,h4.title-subcontracts,h4.subcontract-id{
+	font-weight: 400;
+	letter-spacing: 1.5px;
+    line-height: 24px;
+
+}
+
+li h4.subcontract-No  {
+	text-transform: uppercase;
+}
+
+
+span.space-2452536 {
+	letter-spacing: -0.3px;
+}
+
+h4.subcontract {
+	font-weight: 400;
+	opacity: 0.54;
+  letter-spacing: -0.2px;
+  text-align: center;
+
+
+}
+h3.work-order {
+	opacity: 0.9;
+	text-align: center;
+
+}
+
+h3.tab-desc-title {
+	opacity: 0.9;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+
+}
+
+li h3,h3.work-order  {
+	font-weight: 300;
+	letter-spacing: -0.51px;
+}
+
+p.tab-desc-content,li.tab-desc-content,span.title-required,span.title,dt.title {
+	opacity: 0.54;
+	font-weight: 400;
+	font-size: 12px;
+	color: #212529;
+  line-height: 18px;
+}
+
+p.tab-desc-content,li.tab-desc-content {
+   letter-spacing: -0.2px;	
+}
+
+
+.margin li a {
+	opacity: 0.54;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+span.title-desc,dd.title-desc{
+	display: block;
+	font-weight: 400;
+	font-size: 16px;
+  color: #212529;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+
+}
+
+
+dd.title-desc-title {
+   opacity: 0.9;
+   font-weight: 300;
+   font-size: 24px;
+   color: #212529;
+   letter-spacing: 0.5px;
+}
+
+
+span a.btn-primary,dd a.btn-primary,dd a.btn-primary-processing,p a.btn-portfolio {
+	  color: #fff;
+    background-color: #67D596;
+    border-color: #67D596;
+    border-radius: 22px;
+    width: 96px;
+    height: 24px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: -0.5px;
+    position: relative;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+}
+
+span a.btn-primary,dd a.btn-primary {
+	padding:3px 15px 0;
+}
+
+dd a.btn-primary-processing {
+	padding: 4px 0 10px;
+   
+}
+
+a.btn-required-skills {
+    color: #ffffff;
+    background-color: #868e96;
+    border-color: #868e96;
+    border-radius: 20px;
+    padding: 3px 20px 0;
+    height: 24px;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: -0.5px;
+    position: relative;
+    top: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p a.btn-free-freelancer,li a.btn-view-message,li a.btn-add-milestone,p a.btn-create-subcontract-btn-margin {
+	  font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    line-height: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+    color: #ffffff;
+    position: relative;
+    background: #88CC29;
+    border: 2px solid #88CC29;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.32);
+      
+}
+p a.btn-free-freelancer,li a.btn-view-message,li a.btn-add-milestone {
+	padding: 15px 30px;
+}
+
+p a.btn-create-subcontract-btn-margin {
+	text-transform: uppercase;
+	padding: 15px 60px;
+
+}
+
+p a.btn-free-freelancer {
+	text-align: center;
+}
+
+div.alignment-required-skills {
+	position: relative;
+	top: 34px;
+	text-align: center;
+}
+div.alignment-wo-status,div.alignment-fixed-amount {
+	position: relative;
+	top: 34px;
+}
+
+.alignment-middle-content {
+    position: relative;
+    top: 10px;
+}
+
+span.title-required,span.title,dt.title {
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+div.find-freelancer-btn-margin,div.view-add-btn-margin {
+	position: relative;
+	top: 93px;
+}
+
+div.view-add-btn-margin {
+	padding-right: 115px;
+	text-align: center;
+}
+
+div.find-freelancer-btn-margin {
+	text-align: center;
+}
+
+div.view-details-btn-alignment {
+	max-width: 328px;
+    margin: 0 auto;
+    position: relative;
+    top: 93px;
+}
+
+div.wo-shift-right {
+	padding-left: 75px;
+}
+/*.....New ......*/
+
+ul.main {
+    list-style: none;
+    display: inline;
+}
+
+ul.nav {
+	display: inline;
+	text-align: center;
+}
+.header
+{
+	background-color: #e6e6e6;
+}
+
+/*.....New ......*/
+
+
+.box
+{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.32);
+
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-bottom-color:#212529;
+}
+
+.nav-tabs>li>a:hover {
+    /*border-color: #fff;*/
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+   /* background-color: #fff;*/
+}
+
+.border-bottom {
+	border-bottom: 1px solid #e6e6e6;
+	width: 97.5%;
+}
+
+.margin-submenu {
+	max-width: 440px;
+	margin: 0 auto;
+
+}
+
+li.padding-right {
+    padding-left: 116px;
+}
+
+.container.padding-bottom {
+    padding-bottom: 110px;
+}
+
+.border-bottom-2nd {
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+	top:65px;
+	margin:0 20px;
+}
+
+.margin-work-order-subcontract {
+	position: relative;
+	top: 68px;
+}
+
+.border-right {
+	border-right: 1px solid #e6e6e6;
+  position: relative;
+  top: 15px;
+}
+
+.border-height {
+	min-height: 400px;
+}
+
+.border-left {
+	border-left: 1px solid #e6e6e6;
+}
+
+.btn-list-style,.btn-list-style-required-skills {
+	list-style: none;
+	display: inline;
+	
+}
+
+.btn-list-style {
+	padding: 15px;
+}
+
+
+
+
+.row.margin-size {
+    margin-left: 5px;
+    margin-right: 34px;
+}
+
+table.table  { border-collapse:collapse; table-layout: fixed; }
+
+
+.table>thead>tr>th { vertical-align: bottom; border-bottom: 1px solid #ddd; }
+
+
+
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, 
+.table>tfoot>tr>td, .table>tfoot>tr>th, 
+.table>thead>tr>td, .table>thead>tr>th {
+  
+  border-top: 1px solid #e6e6e6 !important;
+    
+}
+
+
+.table.table-2nd>thead>tr.border-first>th { border-top: none !important; }
+
+
+
+div.border-bottom-1st {
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  top:-20px;
+}
+
+
+
+th.table-title {
+  opacity: 0.54;
+  font-weight: 400;
+  font-size: 12px;
+  color: #212529;
+  letter-spacing: 1.5px;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+}   
+
+
+
+td.table-content { 
+  font-weight: 400;  
+  font-size: 16px;
+  color: #212529;
+  letter-spacing: -0.3px;
+  text-align: center;
+  line-height: 22px;
+}
+
+
+
+
+
+td.row-padding-1st {
+  padding: 16px 0px !important;
+  position: relative;
+  top: 10px;
+
+}
+
+
+th.row-margin-1st-table {
+  position: relative;
+  top: 3px;
+
+}  
+
+
+
+a.view-subcontract {
+  
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.23px;
+  line-height: 20px;
+  display: inline-block;
+  border-radius: 2px;
+  transition: 0.3s;
+  color: #ffffff;
+  position: relative;
+  background: #88CC29;
+  border: 2px solid #88CC29;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.32);
+
+}
+
+
+a.view-subcontract {
+  padding: 10px 15px;
+  top:-12px;
+}
+
+a.view-subcontract:hover {
+  background: #7ab724;
+  color: #fff;
+  border: 2px solid #7ab724;
+  transition: 0.5s;
+}
+
+a.view-subcontract:focus {
+  background: #94d13e;
+  color: #ffffff;
+  border: 2px solid #94d13e;
+  transition: 0.5s;
+}
+
+a.view-subcontract:active {
+  background: #abdb69;
+  color: #ffffff;
+  border: 2px solid #abdb69;
+}
+
+.container.margin-top {
+    position: relative;
+    top: 30px;
+}
+
+.form-margin input,
+.form-padding input,
+.form-margin textarea,
+.form-padding textarea {
+  display: block;
+  border: 0;
+  background: white no-repeat;
+
+  
+  /*
+  * IMPORTANT PART HERE
+  */
+  
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+  background-image: linear-gradient(to bottom, #17AEE6, #17AEE6), linear-gradient(to bottom, silver, silver);
+  /* sizes for the 2 images (default state) */
+  background-size: 0 2px, 100% 1px;
+  /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+  background-position: 50% 100%, 50% 100%;
+
+  /* animation solely on background-size */
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+}
+
+.form-margin input,.form-padding input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 0px;
+}
+.form-margin textarea,.form-padding textarea{
+   padding: 0px 5px 100px 0;
+   width: 100%;
+}
+
+.form-margin input,.form-padding input {
+  width: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px 0;
+}
+
+.form-margin input:focus,
+.form-padding input:focus,
+.form-padding textarea:focus,
+.form-margin textarea:focus{
+  /* sizes for the 2 images (focus state) */
+  background-size: 100% 2px, 100% 1px;
+  outline: none;
+}
+
+
+/*======================
+   14.select starting stylings
+========================*/
+
+select  {
+
+  width: 100%;
+  padding: 4px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #212529;
+  border: none;
+  border-bottom: 1px solid #c0c0c0;
+  opacity: 0.9;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+
+}
+
+/* Remove focus */
+select:focus { outline: none; }
+
+/* Hide label */
+.mdl-1-selectfield label { display: none; }
+
+/* Use custom arrow */
+.mdl-1-selectfield select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+}
+
+.mdl-2-selectfield select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+}
+
+.mdl-1-selectfield {
+  position: relative;
+  width: 100%;
+ 
+  
+}
+
+.mdl-2-selectfield {
+  position: relative;
+  width: 50%;
+}
+
+
+.mdl-1-selectfield:after,.mdl-2-selectfield:after {
+  position: absolute;
+  top:5px;
+  right:5px;
+
+  /* Styling the down arrow */
+  
+  content: "\f078";
+  color: #000 ;
+  font-weight: 900;
+  font-family: Font Awesome\ 5 Free;
+  pointer-events: none;  
+
+}
+
+
+div.margin-top {
+	position: relative;
+	top: 10px;
+}
+
+.margin-top-subcontract{
+	position: relative;
+	top: 30px;
+}
+
+.margin-top-freelancer {
+    position: relative;
+    top: 50px;
+}
+
+.subcontract-margin-top {
+	position: relative;
+	top: 80px;
+}
+.margin-top-subcontract-title {
+	position: relative;
+	top: 100px;
+}
+
+.margin-top-description {
+	position: relative;
+	top: 120px;
+}
+.required-skills-margin-top {
+	position: relative;
+	top: 140px;
+}
+
+.margin-top-subcontract-financial {
+	position: relative;
+	top: 170px;
+}
+
+.margin-amount-top {
+	position: relative;
+	top: 190px;
+}
+
+.margin-top-deadline {
+	position: relative;
+	top: 210px;
+}
+
+.payment-account-margin-top {
+	position: relative;
+	top: 230px;
+}
+
+ul.copywriting-social-media {
+	padding-left: 0px;
+}
+
+
+.md-radio {
+  margin: 16px 0;
+}
+.md-radio.md-radio-inline {
+  display: inline-block;
+}
+.md-radio input[type="radio"] {
+  display: none;
+}
+.md-radio input[type="radio"]:checked + label:before {
+  border-color: #17AEE6;
+  animation: ripple 0.2s linear forwards;
+}
+.md-radio input[type="radio"]:checked + label:after {
+  transform: scale(1);
+}
+
+.md-radio label {
+    display: inline-block;
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+    letter-spacing: -0.3px;
+    line-height: 24px;
+}
+
+.md-radio label:before, .md-radio label:after {
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  transition: all .3s ease;
+  transition-property: transform, border-color;
+}
+.md-radio label:before {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+}
+.md-radio label:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  background: #17AEE6;
+}
+
+.container.form-padding-bottom {
+	padding-bottom: 305px;
+
+}
+
+.create-subcontract-btn-margin {
+	position: relative;
+	top: 275px;
+	text-align: center;
+}
+
+
+label.form-label-title {
+	font-weight: 400;
+	font-size: 12px;
+	color: #212529;
+  letter-spacing: -0.2px;
+  line-height: 18px;
+  display: block;
+
+}
+
+
+
+form.form-margin {
+    padding: 48px 48px 0;
+}
+
+.container.margin-top {
+	position: relative;
+	top: 30px;
+}
+
+
+img.image-size {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+p.content-margin {
+    position: relative;
+    top: -13px;
+}
+
+dd.title-desc-position,.title-dec-btn-position {
+	position: relative;
+	top: -2px;
+}
+
+dd.title-desc.representative-img-position {
+    position: relative;
+    top: -16px;
+}
+
+dd.title-desc-title.title-social,dd p.title-social-desc {
+    position: relative;
+    top: -8px;
+}
+
+dl.social-media-margin-top {
+	position: relative;
+	top: -14px;
+}
+
+
+img.portfolio-img-size {
+	height: 60px;
+	width: auto;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0);
+  }
+}
+
+.profile_tile {
+	background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.profile_tile .profile_head {
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
+.profile_tile .profile_head .thumb {
+	float: left;
+	margin-right: 12px;
+}
+.profile_tile .profile_head .thumb img{
+	height: 60px;
+}
+.profile_tile .profile_head h3{
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.profile_tile .profile_head h4{
+	font-size: 16px;
+	margin-top: 0;
+}
+.profile_tile .profile_rating{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0px;
+}
+.profile_tile .profile_rating ul{
+    margin: 0;
+    padding: 0 0 5px 0;
+    list-style: none;
+}
+.profile_tile .profile_rating ul li{
+	display: inline-block;
+}
+.profile_tile .profile_rating ul li i{}
+.profile_tile .profile_rating a{
+	background-color: #88CC29;
+    color: #fff;
+    padding: 3px 35px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.profile_tile .profile_info {
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+	font-size: 13px;
+	color: #999;
+	font-weight: 500;
+}
+.profile_tile .profile_info p{
+	margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+a.btn-text {
+  text-transform: uppercase;
+}
+
+.showing-3-freelancers {
+  padding-top: 48px;
+  padding-bottom: 36px;
+}
+
+
+.show-4-freelancers p {
+  padding-top: 72px;
+  padding-bottom: 36px;
+}
+
+.newest-profiles {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+input.find-freelancers-input-field {
+  width: 100%;
+  padding: 4px 0;
+}
+
+
+.reset-all-filters-align p {
+  text-align: center;
+  padding: 32px 0 32px 0;
+ 
+}
+
+span.minus {
+  display: inline-block;
+  position: relative;
+  left: -14px;
+  top: 5px;
+}
+
+input.position-hourly-rate-range {
+    position: relative;
+    top: -20px;
+}
+
+
+.projects-work-country-position {
+  margin-top: 9px;
+}
+
+
+
+form.form-padding {
+    padding: 32px 32px 0 12px;
+   
+}
+
+.reset-all-filters-align p a {
+  font-size: 16px;
+  color: #17AEE6;
+  letter-spacing: -0.27px;
+  line-height: 18px;
+ 
+}
+
+.hourly-rate-range {
+  margin-top: 12px;
+}
+
+.showing-3-freelancers p,.show-4-freelancers p {
+  opacity: 0.9;
+  font-size: 16px;
+  color: #212529;
+  letter-spacing: -0.3px;
+}
+
+.newest-profiles p {
+  font-size: 12px;
+  color: #212529;
+  letter-spacing: -0.2px;
+  line-height: 18px;
+}
+
+.portfolio-tile-border h3 {
+  font-weight: 300;
+  letter-spacing: -0.51px;
+}
+
+
+
+h4.website-content {
+  opacity: 0.9;
+  letter-spacing: -0.3px;
+}
+
+p.website-content-date,p.website-content-desc {
+ opacity: 0.54;
+ font-size: 16px;
+ color: #212529;
+ letter-spacing: -0.3px;
+}
+
+h4.content-title {
+  opacity: 0.9;
+  letter-spacing: -0.3px;
+}
+
+h4.content-title-2nd,h4.content-title-date {
+  opacity: 0.54;
+  letter-spacing: -0.3px;
+}
+
+h4.content-title-date {
+    padding-top: 46px;
+}
+
+h4.content-title-2nd {
+    padding-top: 10px;
+}
+p.content-desc {
+  opacity: 0.54;
+  font-size: 16px;
+  color: #212529;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+  padding-top: 24px;
+
+}
+
+.content-border {
+  border-bottom: 1px solid #ddd;
+
+}
+
+.content-padding {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 48px;
+ }   
+
+.content-padding-bottom {
+    padding-bottom: 72px;
+}
+
+.portfolio-tile-border h3 {
+    padding-bottom: 7px;
+}
+
+.first-content-title   {
+  padding-top: 24px;
+
+}
+
+.first-content-title-certifications {
+  padding-top: 32px;
+}
+
+.freelancer-search-border-height {
+  min-height: 70px;
+}
+.border-left-certifications {
+  border-left: 1px solid #ddd;
+  min-height: 70px;
+  position: relative;
+  top: 42px;
+}
+
+.border-right-certifications {
+   border-right: 1px solid #ddd;
+  min-height: 70px;
+  position: relative;
+  top: 32px;
+}
+
+.content-padding-bottom-education {
+  padding-bottom: 120px;
+}
+
+.border-left-education {
+    border-left: 1px solid #ddd;
+    min-height: 95px;
+    position: relative;
+    top: 42px;
+}
+
+img.img-width {
+  width: 100%;
+  height: 160px;
+}
+
+.portfolio-tile-border {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+
+.content-desc-portfolio {
+    opacity: 0.54;
+    font-size: 16px;
+    color: #212529;
+    letter-spacing: -0.3px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container.padding-top {
+    padding-top: 32px;
+}
+
+
+
+ .thumbnail-img img{
+  height: 160px;
+  width: auto;
+}
+
+
+ .profile_rating ul{
+    margin: 0;
+    padding: 0 0 5px 0;
+    list-style: none;
+}
+ .profile_rating ul li{
+  display: inline-block;
+}
+
+.profile_rating a{
+    background-color: #88CC29;
+    color: #fff;
+    padding: 3px 65px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.country-selector p img {
+  height: 32px;
+  width: auto;
+  padding-left: 8px;
+}
+
+.email-phn {
+  max-width: 450px;
+  margin: 0 auto;
+  position: relative;
+  top: 16px;
+}
+
+dl dd a {
+   background-color: #868e96;
+    color: #fff;
+    padding: 5px 20px;
+    /*display: inline-block;*/
+    font-size: 12px;
+    border-radius: 15px;
+    font-weight: 700;
+
+} 
+
+h3.freelancer-name {
+   font-weight: 300;
+   letter-spacing: -0.51px;
+}
+h4.freelancer-designation {
+    opacity: 0.9;
+   letter-spacing: -0.3px;
+}
+
+p.country {
+
+ font-size: 12px;
+ color: #999;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+ line-height: 18px;
+ margin-top: 8px;
+
+}
+
+p.work-profile,dl dt.work-profile {
+  
+ font-weight: 400;
+ font-size: 12px;
+ color: #999;
+ letter-spacing: 1.5px;
+ line-height: 18px;
+ text-transform: uppercase;
+
+}
+
+span.work-details {
+  font-weight: 400;
+  font-size: 16px;
+  color: #212529;
+ letter-spacing: -0.3px;
+ line-height: 24px;
+}
+
+dt.working-skills {
+  opacity: 0.54;
+  font-weight: 400;
+ font-size: 16px;
+ color: #212529;
+ letter-spacing: 1.5px;
+ line-height: 24px;
+ text-transform: uppercase;
+}
+
+.working-skills {
+  position: relative;
+  left: -45px;
+  top: 16px;
+}
+
+.padding {
+
+    /* margin-top: -15px; */
+    position: relative;
+    top: -20px;
+
+   
+}
+
+.btn-send-message {
+  float: right;
+  margin-top:50px; 
+}
+
+.btn-send-message a.btn-view-message {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    line-height: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+    color: #ffffff;
+    position: relative;
+    background: #88CC29;
+    border: 2px solid #88CC29;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.32);
+    padding:10px 40px; 
+}
+
+.content-size {
+  padding: 48px;
+}
+
+p.about-me-desc,p.about-me-desc-1st {
+  opacity: 0.54;
+ font-size: 16px;
+ color: #212529;
+ letter-spacing: -0.3px;
+ line-height: 24px;
+
+}
+
+p.about-me-desc {
+  margin-top: 30px;
+}
+
+p.about-me-title {
+  opacity: 0.54;
+font-size: 12px;
+color: #212529;
+letter-spacing: 1.5px;
+line-height: 18px;
+text-transform: uppercase;
+}
+
+.content-about-me {
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+i.check-icon {
+  position: relative;
+  right: -5px;
+}
+
+dd a.btn-copywrite {
+  margin-left: -10px;
+}
+
+dd.btn-social-media-marketing {
+  margin-top: 8px;
+  position: relative;
+  left: -10px;
+}
+
+.profile_rating {
+  padding-top: 8px;
+}
+
+dd.work-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+    letter-spacing: -0.3px;
+    line-height: 24px;
+    /* margin-top: -10px; */
+    position: relative;
+    top: -3px;
+}    
