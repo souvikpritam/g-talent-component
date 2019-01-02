@@ -1,0 +1,1 @@
+# g-talent-component
